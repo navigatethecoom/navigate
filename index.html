@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CHECKER (Update: 16 May, 2nd Revision)</title>
+    <title>CHECKER (Update: 16 May, Revision 3)</title>
   </head>
 
   <body>
@@ -39,7 +39,7 @@
         <a
           href="https://oai-proxy-787r.onrender.com/?__theme=light"
           target="_blank"
-          >2. Lazy - a Hugging Face Space by Lazy</a
+          >2. Lazy - a Hugging Face Space by oai-proxy-787r</a
         >
       </h3>
       <iframe
@@ -461,6 +461,19 @@
         allow="encrypted-media"
         sandbox
       ></iframe>
+      <h3 style="text-align: center">
+        <a href="https://aicg-moxxie-proxy.hf.space" target="_blank"
+          >31. Moxxie's Reverse Proxy - a Hugging Face Space by Moxxie (need to click to go there to be able use the service info button)</a
+        >
+      </h3>
+      <iframe
+        id="iframe31"
+        src="https://aicg-moxxie-proxy.hf.space/"
+        width="100%"
+        height="500"
+        allow="encrypted-media"
+        sandbox
+      ></iframe>
     </div>
     <h1 style="text-align: center"></h1>
     <table width="100%" style="background-color: white">
@@ -589,6 +602,10 @@
         return null;
       };
       var iframe30 = document.getElementById("iframe30");
+      iframe30.contentWindow.document.open = function () {
+        return null;
+      };
+      var iframe30 = document.getElementById("iframe31");
       iframe30.contentWindow.document.open = function () {
         return null;
       };
